@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snacks-Brake</title>
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link
+    href="https://fonts.cdnfonts.com/css/amazon-ember"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+</head>
+
+
+<body>
+    <nav class="navbar row">
+        <div class="col-12 col-md-3">
+          <div class="navbar-brand">
+            <img width="150px" height="100px" src="./image/product/logosnacks-removebg-preview.png" />
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 mt-2 mt-md-0">
+            <div class="input-group">
+              <input
+                type="text"
+                id="search_field"
+                class="form-control"
+                placeholder="Enter Product Name ..."
+              />
+              <div class="input-group-append">
+                <button id="search_btn" class="btn">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 mt-4 mt-md-0 text-center">
+            <span id="cart" class="ml-3">Cart</span>
+            <span class="ml-1" id="cart_count">2</span>
+          </div>
+        </nav>
+
+          <h1 id="products_heading">fav snacks...</h1>
+
+          <section id="products" class="container mt-5">
+            <div class="row">
+
+              <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+                <div class="card-bg card p-3 rounded">
+                  <img
+                    class="card-img-top mx-auto"
+                    src="./image/product/fruit smoothie.jpeg"
+                  />
+                  <div class="card-body d-flex flex-column">
+                    <h4>Fruit smoothie</h4>
+                    <h5 class="card-title">
+                      <a href="">A fruit smoothie is a good way to pack a lot of nutrients into a small snack.</a>
+                    </h5>
+                    <div class="ratings mt-auto">
+                      <div class="rating-outer">
+                        <div class="rating-inner"></div>
+                      </div>
+                    </div>
+                    <p class="card-text">RS.130</p>
+                    <a href="#" id="view_btn" class="btn btn-block">View Details</a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+                <div class="card-bg card p-3 rounded">
+                  <img
+                    class="card-img-top mx-auto"
+                    src="./image/product/banana-oat.jpeg"
+                  />
+                  <div class="card-body d-flex flex-column">
+                    <h4>Banana Cookies</h4>
+                    <h5 class="card-title">
+                      <a href=""
+                        >Homemade banana cookies are a healthy snack for kids that tastes like a treat.</a
+                      >
+                    </h5>
+                    <div class="ratings mt-auto">
+                     <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <i class="fa fa-star-o"></i>
+                      <span id="no_of_reviews">(5 Reviews)</span>
+                    </div>
+                    <p class="card-text">RS.100</p>
+                    <a href="#" id="view_btn" class="btn btn-block">View Details</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+                <div class="card-bg card p-3 rounded">
+                  <img
+                    class="card-img-top mx-auto"
+                    src="./image/product/kale-chips2.jpg"
+                  />
+                  <div class="card-body d-flex flex-column">
+                    <h4>Kale Chips</h4>
+                    <h5 class="card-title">
+                      <a href=""
+                        >Imagine being able to munch as many crunchy snacks as you want while you're binging that show you love without feeling guilty later</a
+                      >
+                    </h5>
+                    <div class="ratings mt-auto">
+                     <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <i class="fa fa-star-o"></i>
+                      <span id="no_of_reviews">(5 Reviews)</span>
+                    </div>
+                    <p class="card-text">RS.50</p>
+                    <a href="#" id="view_btn" class="btn btn-block">View Details</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+                <div class="card-bg card p-3 rounded">
+                  <img
+                    class="card-img-top mx-auto"
+                    src="./image/product/Sandwich.jpg"
+                  />
+                  <div class="card-body d-flex flex-column">
+                    <h4>Sandwich</h4>
+                    <h5 class="card-title">
+                      <a href=""
+                        >sandwich, in its basic form, slices of meat, cheese, or other food placed between two slices of bread. Although this mode of consumption must be as old as meat and bread</a
+                      >
+                    </h5>
+                    <div class="ratings mt-auto">
+                     <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <i class="fa fa-star-o"></i>
+                      <span id="no_of_reviews">(5 Reviews)</span>
+                    </div>
+                    <p class="card-text">RS.200</p>
+                    <a href="#" id="view_btn" class="btn btn-block">View Details</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+                <div class="card-bg card p-3 rounded">
+                  <img
+                    class="card-img-top mx-auto"
+                    src="./image/product/Sandwich.jpg"
+                  />
+                  <div class="card-body d-flex flex-column">
+                    <h4>Sandwich</h4>
+                    <h5 class="card-title">
+                      <a href=""
+                        >sandwich, in its basic form, slices of meat, cheese, or other food placed between two slices of bread. Although this mode of consumption must be as old as meat and bread</a
+                      >
+                    </h5>
+                    <div class="ratings mt-auto">
+                     <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <i class="fa fa-star-o"></i>
+                      <span id="no_of_reviews">(5 Reviews)</span>
+                    </div>
+                    <p class="card-text">RS.200</p>
+                    <a href="#" id="view_btn" class="btn btn-block">View Details</a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+                <div class="card-bg card p-3 rounded">
+                  <img
+                    class="card-img-top mx-auto"
+                    src="./image/product/Sandwich.jpg"
+                  />
+                  <div class="card-body d-flex flex-column">
+                    <h4>Sandwich</h4>
+                    <h5 class="card-title">
+                      <a href=""
+                        >sandwich, in its basic form, slices of meat, cheese, or other food placed between two slices of bread. Although this mode of consumption must be as old as meat and bread</a
+                      >
+                    </h5>
+                    <div class="ratings mt-auto">
+                     <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <i class="fa fa-star-o"></i>
+                      <span id="no_of_reviews">(5 Reviews)</span>
+                    </div>
+                    <p class="card-text">RS.200</p>
+                    <a href="#" id="view_btn" class="btn btn-block">View Details</a>
+                  </div>
+                </div>
+              </div>
+  
+
+            </div>
+          </section>
+
+            <footer class="footer py-1 bg-dark">
+              <p class="text-center text-white mt-1 ">
+                SNACKS-BREAK - 2023-2024, All Rights Reserved
+              </p>
+            </footer>
+
+            <script type="text/javascript">
+              const stars = 5;
+              const rating = 4.5;
+         
+              const starPercentage = `${(rating / stars) * 100}%`;
+              
+              document.querySelector(`.rating-inner`).style.width = starPercentage; 
+              
+            </script>
+      
+  </body>
+</html>
